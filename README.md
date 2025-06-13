@@ -121,3 +121,10 @@ GET /invoice/:id
 * A mesma instância do repositório é compartilhada entre as rotas, garantindo consistência
 * A estrutura está preparada para expansão com banco de dados real e outros módulos do monolito
 
+## Testes cobrem
+
+- Criação de produtos
+- Listagem e busca por ID
+- Atualização de produtos
+- Remoção de produtos
+- Validação de erros esperados
